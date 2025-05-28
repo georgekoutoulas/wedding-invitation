@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const scenes = [
-  { id: 'scene1', src: '/1000102518.png', alt: 'Κινητό με Like' },
-  { id: 'scene2', src: '/1000102519.png', alt: 'Χάρτινο αεροπλανάκι' },
-  { id: 'scene3', src: '/1000102520.png', alt: 'Κοπέλα με καρδιά' },
+  { id: 'scene1', src: '/1000102514.png', alt: 'Χέρι με κινητό και Like' },
+  { id: 'scene2', src: '/paper_plane_final.png', alt: 'Χάρτινο αεροπλανάκι' },
+  { id: 'scene3', src: '/girl_heart_final.png', alt: 'Κοπέλα με καρδιά' },
 ];
 
 export default function AnimatedSequence() {
